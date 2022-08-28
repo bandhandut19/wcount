@@ -4,10 +4,10 @@
     padding: 0;;
 }
 html{
-    font-size: 62.5%;
+    font-size: 70%;
 }
 body{
-    background-color: rgb(91, 48, 155);
+    background-color: rgb(78, 36, 142);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,26 +17,26 @@ body{
 main{
     border-radius: 3px;
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 600px;
+    width: 600Px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 0 20px 5px rgb(62, 37, 98);
+    box-shadow: 0 0 20px 5px rgb(159, 101, 239);
 }
 
 .text{
-    height: 200px;
-    width: 90%;
+    height: 600px;
+    width: 95%;
     margin: 3rem;
     transform: translateY(-20px);
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     resize: none;
     padding: 10px 10px;
     border: none;
     outline: none;
-    font-family: 'Gill Sans','Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 .boxes{
     border-radius: 7px;
@@ -46,31 +46,31 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 180px;
-    transform: translateY(100px);
+    height: 120px;
+    width: 540px;
+    transform: translateY(280px);
     gap: 1rem;
 }
 .box{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    transform: translateY(-5px);
-    font-family: 'Gill Sans','Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(-2px);
+    font-family: "Times New Roman", Times, serif;
 
 }
 .box::before {
     content: attr(data-text);
-    color: rgba(199, 195, 195, 0.874);
+    color: rgba(164, 74, 255, 0.874);
     position: absolute;
     height: 10px;
     width: 50px;
-    font-size:0.9rem;
+    font-size:1.3rem;
     transform: translateY(13px);
     text-align: center;
-    font-family: 'Gill Sans','Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 
 }
